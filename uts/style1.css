@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*css brand logo dan nama*/
+.brand span{
+    margin-left: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.brand li,a,button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: skyblue;
+}
+.brand{
+    list-style: none;
+}
+.brand li{
+    display: inline-block;
+    padding: 5px;
+}
+.brand span{
+    margin-right: 250px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.brand li a:hover{
+    color: khaki;
+}
+
+.brand input[type=search]{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 15px;
+    padding: 9px 10px;
+}
+.brand button{
+    padding: 9px 10px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.brand button:hover{
+    background-color: khaki;
+}
+
+/*Jumbotron*/
+.jumbotron{
+    height: 520px;
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;    
+    background-image: url('images/nusapenida.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.jumbotron:hover{
+    background-image: url('images/nusapenida.jpg');
+}
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color: #edf0f1;
+}
+.text-brand h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+.text-brand p{
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+.btn-jelajahi{
+    width: 200px;
+    height: 50px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-jelajahi:hover{
+    background-color: khaki;
+}
+.btn-jelajahi a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.btn-video{
+    width: 200px;
+    height: 50px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-video:hover{
+    background-color: khaki;
+}
+.btn-video a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+/* konten objek wisata */
+.objekwisata{
+    margin: 5px;
+    padding: 10px;
+    background-color: skyblue;
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.gambar .title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.objekwisata .isian h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    text-align: justify;
+}
+.objekwisata .isian h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+.objekwisata .isian p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian .baca{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+.objekwisata .isian .baca:hover{
+    color: khaki;
+}
+.link-img{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+/* Sarana Akomodasi */
+.kolom{
+    margin: 5px;
+    padding: 10px;
+    background-color: skyblue;
+    column-count: 3;
+    -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px black;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.price{
+    color: black;
+    font-size: 22px;
+}
+.card button{
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover{
+    opacity: 0.7;
+}
+
+/* Kontak Pesan */
+.kontak-pesan{
+    margin: 5px;
+    padding: 10px;
+    background-color: skyblue;
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.form{
+    position: center;
+    margin: 10px;
+    padding: 40px;
+    background-color: skyblue;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 black;
+}
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form .tombol{
+    border-radius: 10px;
+    padding: 1px 10px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: black;
+}
+.form .tombol:hover{
+    background-color: khaki;
+}
+.form h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.form .pesan{
+    height: 60px;
+}
+
+/* footer */
+footer{
+    margin: 0px;
+    padding: 10px;
+    background-color: skyblue;
+    column-count: 3;
+    -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-gap: 40px;
+        -moz-column-gap: 40px;
+        -webkit-column-gap: 40px;
+        border: 1px solid #ccc;
+}
+footer p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
